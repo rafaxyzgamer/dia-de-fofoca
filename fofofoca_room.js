@@ -44,13 +44,17 @@ function getData() {
 
 }
 // Para obter os dados do banco de dados e exibi-los na página de salas do ChatRoom
+getData();
 
 
 //complete com amor
 function redirectToRoomName(name) {
-
+localStorage.setItem("roomName", name);
+window.location="fofofoca_page.html";
 }
 //complete com paciência
 function logout() {
-
+localStorage.removeItem("nomeuario");
+localStorage.removeItem("room_name");
+window.location="index.html";
 }
