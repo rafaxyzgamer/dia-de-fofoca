@@ -1,12 +1,12 @@
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBvShpzsQwuRVrXOH5Llx5xGs91nH3yHFA",
-    authDomain: "project-8093770468331130772.firebaseapp.com",
-    databaseURL: "https://project-8093770468331130772-default-rtdb.firebaseio.com/",
-    projectId: "project-8093770468331130772",
-    storageBucket: "project-8093770468331130772.appspot.com",
-    messagingSenderId: "51241503812",
-    appId: "1:51241503812:web:ea0cd3868308384614c011"
+    apiKey: "AIzaSyCLF3Dyaxi0ZBd4eso40iiE_ezOqbAmaME",
+    authDomain: "diadefofoca.firebaseapp.com",
+    databaseURL: "https://diadefofoca-default-rtdb.firebaseio.com/",
+    projectId: "diadefofoca",
+    storageBucket: "diadefofoca.appspot.com",
+    messagingSenderId: "252218180966",
+    appId: "1:252218180966:web:c481aba5933975def174a7"
 };
 
 // Initialize Firebase
@@ -49,12 +49,12 @@ getData();
 
 //complete com amor
 function redirectToRoomName(name) {
-localStorage.setItem("roomName", name);
-window.location="fofofoca_page.html";
+    localStorage.setItem("room_name", name);
+    window.location = "fofofoca_page.html";
 }
 //complete com paciência
 function logout() {
-localStorage.removeItem("nomeuario");
-localStorage.removeItem("room_name");
-window.location="index.html";
+    localStorage.removeItem("nomeuario");
+    localStorage.removeItem("room_name");
+    window.location = "index.html";
 }
